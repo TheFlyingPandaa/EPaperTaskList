@@ -2,6 +2,8 @@
 
 import argparse
 import epd2in7
+import subprocess
+import os
 from PIL import Image
 from PIL import ImageFont
 from PIL import ImageDraw
@@ -19,9 +21,12 @@ def main():
     NOTENAME   = "\x1b[1;38;5;252m"
     LINEEND    = "\x1b[0m"
     TASKEND    = "[ ]"
+    cmd = "tasky.py -l > wopwop.txt"
 
     if args.f:
         standardFile = args.f
+    else:
+        os.popen(cmd).read()
 
     taskyRawOutput = open(standardFile, "r")
 
