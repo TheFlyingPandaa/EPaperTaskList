@@ -1,10 +1,5 @@
 Printing all Task Lists...
-0 [1;38;5;218mWorkTodo[0m
-[1;38;5;195m  0 [ ] Booboo best[0m
-[1;38;5;195m  1 [ ] Bobby e retarded[0m
-[1;38;5;195m  2 [ ] Test[0m
-[1;38;5;195m  3 [ ] More cool shit[0m
-[1;38;5;195m  4 [ ] Cool task[0m
+0 [1;38;5;218mWorkTodo[0m (empty)
 1 [1;38;5;218mNormal todo[0m (empty)
 2 [1;38;5;218mTools Todo[0m
 [1;38;5;195m  0 [ ] Git clean tool[0m

@@ -76,8 +76,9 @@ def main():
     font = ImageFont.truetype('/usr/share/fonts/truetype/freefont/FreeMonoBold.ttf', 18)
     counter = 0
     for inp in finalList:
-        draw.text((20, ((counter)*20)), inp[2], font = font, fill = 255)
-        counter += 1
+        if inp[0] == False:
+            draw.text((20, ((counter)*20)), inp[2], font = font, fill = 255)
+            counter += 1
 
     image = image.rotate(90, expand=1)
     finalImage.paste(image, (0,0))
